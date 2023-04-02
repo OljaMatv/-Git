@@ -1,7 +1,8 @@
-def capitalize_words(str):
+def capitalize_all_letters(str):
     """Capitalizes all letters in the input string."""
     return str.upper()
 
-def capitalize_words(str):
+def capitalize_first_letters(str):
     """Capitalizes the first letter of each word in the input string."""
-    return str.title()
+    words = str.split()
+    return " ".join(word.capitalize() for word in words)
