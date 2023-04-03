@@ -1,5 +1,5 @@
 def capitalize_all_letters(str):
-    """Capitalizes all letters in the input string."""
+    """Capitalizes all letters in the input str"""
     return str.upper()
 
 def capitalize_first_letters(str):
